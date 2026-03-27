@@ -21,11 +21,11 @@ Sistema de controle de estoque para uma loja de açaí desenvolvido em Java, cri
 | Conceito | Onde foi aplicado |
 |---|---|
 | **Classes e Encapsulamento** | Classe `Produto` com atributos privados e getters/setters seletivos |
-| **Enumerações:** `StatusEstoque` para classificar o nível do estoque de cada produto
+| **Enumerações:** | `StatusEstoque` para classificar o nível do estoque de cada produto
 | **Construtor** | Criação de produtos com todos os dados definidos na instanciação |
 | **Listas** | `ArrayList<Produto>` para armazenar e gerenciar os produtos |
-| **Loops:** `do/while` para o menu e `for each` para percorrer a lista de produtos | 
-| **Validações:** verificação de estoque suficiente antes de registrar saída e busca com `contains` e `equalsIgnoreCase` |
+| **Loops:** | `do/while` para o menu e `for each` para percorrer a lista de produtos | 
+| **Validações:** | verificação de estoque suficiente antes de registrar saída e busca com `contains` e `equalsIgnoreCase` |
 | **Busca** | Percorrendo a lista para encontrar produtos pelo nome |
 | **Filtro** | Filtrando produtos com status de estoque baixo ou zerado |
 | **Cálculos** | Somando o valor total do estoque com base em quantidade e custo |
